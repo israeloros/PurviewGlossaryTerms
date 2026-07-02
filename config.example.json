@@ -1,0 +1,34 @@
+{
+  "endpoint": "https://<your-account>.purview.azure.com",
+  "api_version": "2026-03-20-preview",
+  "scope": "https://purview.azure.net/.default",
+
+  "auth": {
+    "method": "azure_cli",
+    "tenant_id": "",
+    "client_id": "",
+    "client_secret": ""
+  },
+
+  "# Note": "default_domain_id may be either a domain name or a GUID. If you prefer, provide a mapping under 'domains' below.",
+  "default_domain_id": "",
+
+  "domains": {
+    "Glossary": "",
+    "Business": ""
+  },
+
+  "default_status": "Draft",
+
+  "csv_path": "sample_terms.csv",
+
+  "duplicate_match": {
+    "case_insensitive": true,
+    "check_against_purview": true
+  },
+
+  "load": {
+    "request_timeout_seconds": 60,
+    "delay_between_requests_seconds": 0.1
+  }
+}
