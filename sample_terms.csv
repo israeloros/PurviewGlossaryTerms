@@ -1,6 +1,6 @@
 name,description,domain,status,acronyms,parentId,owners,experts,isLeaf,resources
-Customer,A person or organization that buys goods or services,Jul12026-Test,Draft,CUST,,,,true,Glossary Home|https://contoso.com/glossary
-Revenue,Income generated from normal business operations,Jul12026-Test,Draft,REV;RVN,,,,true,
-Churn Rate,The rate at which customers stop doing business with an entity,Jul12026-Test,Draft,,,,,true,
-Customer,Duplicate row that should be detected and skipped,Jul12026-Test,Draft,,,,,true,
-Net Promoter Score,A metric used to measure customer loyalty,Jul12026-Test,Draft,NPS,,,,true,
+Customer,A person or organization that buys goods or services,DemoDomain,Draft,CUST,,,,true,Glossary Home|https://contoso.com/glossary
+Revenue,Income generated from normal business operations,DemoDomain,Draft,REV;RVN,,,,true,
+Churn Rate,The rate at which customers stop doing business with an entity,DemoDomain,Draft,,,,,true,
+Customer,Duplicate row that should be detected and skipped,DemoDomain,Draft,,,,,true,
+Net Promoter Score,A metric used to measure customer loyalty,DemoDomain,Draft,NPS,,,,true,

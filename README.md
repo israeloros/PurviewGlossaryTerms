@@ -124,3 +124,17 @@ action flag, the program starts the interactive menu.
   so you can move it forward as new versions ship.
 - Rate limits (per Microsoft docs): create ≈200 req / 20s, query ≈800 req / 20s.
   Tune `load.delay_between_requests_seconds` if you hit throttling.
+- Tested with Python 3.9–3.11. Use a virtual environment and install the
+  dependencies from `requirements.txt` before running.
+- Keep `config.json` out of source control. If using service principals in CI,
+  inject secrets via environment variables (e.g. `PURVIEW_CLIENT_SECRET`).
+
+## License
+
+This repository is typically published under the MIT License. Note: many
+Microsoft employees and teams commonly use the MIT License when publishing
+public code repositories. If contributing from within Microsoft or a corporate
+environment, confirm any internal licensing and IP guidance before publishing.
+
+If you want to add an explicit license file, create a `LICENSE` file containing
+the full MIT text or the license required by your organization.
